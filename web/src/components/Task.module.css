@@ -1,0 +1,103 @@
+.taskToDo {
+  background-color: var(--gray-500);
+  border: 1px solid var(--gray-400);
+  border-radius: 8px;
+  padding: 1rem;
+  margin-top: 1.5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;  
+}
+
+.taskToDo + .taskToDo {
+  margin-top: 0.75rem;
+}
+
+.taskToDo > div {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.taskToDo input {
+  appearance: none;
+  min-width: 1.125rem;
+  min-height: 1.125rem;
+  border-radius: 100%;
+  border: 2px solid var(--blue);
+  background-color: transparent;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: 0.2s;
+}
+
+.taskToDo input:hover {
+  background-color: rgba(30, 111, 159, 0.2);
+  border-color: var(--blue-dark);
+
+  transition: 0.2s;
+}
+
+.taskToDo input:checked {
+  background-color: var(--purple-dark);
+  border-color: var(--purple-dark);
+
+  transition: 0.2s;
+}
+
+.taskToDo input::after {
+  font-weight: 700;
+  content: url('../assets/check.svg');
+  line-height: 0;
+  display: none;
+
+  transition: 0.2s;
+}
+
+.taskToDo input:checked::after {
+  display: flex;
+  
+  transition: 0.2s;
+}
+
+.taskToDo input:checked:hover {
+  background-color: var(--purple);
+  border-color: var(--purple);
+}
+
+.taskToDo label {
+  color: var(--gray-100);
+  line-height: 140%;
+  font-size: 0.875rem;
+  cursor: pointer;
+}
+
+.taskToDo input:checked + .taskTitle {
+  color: var(--gray-300);
+  text-decoration: line-through;
+
+  transition: 0.2s;
+}
+
+.taskToDo button {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  line-height: 0;
+  border-radius: 4px;
+  width: 1.5rem;
+  height: 1.5rem;
+
+  align-self: flex-start;
+}
+
+.taskToDo button:hover {
+  background-color: var(--gray-400);
+  color: var(--danger);
+}

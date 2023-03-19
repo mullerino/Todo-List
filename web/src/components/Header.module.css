@@ -1,0 +1,27 @@
+.header {
+  background-color: var(--gray-700);
+  height: 12.5rem;
+
+  display: flex;
+  justify-content: center;
+}
+
+.rocket {
+  width: 1.375rem;
+  height: 2.25rem;
+  margin-right: 0.75rem;
+  align-self: center;
+}
+
+.toDo {
+  color: var(--blue);
+  font-weight: 900;
+  font-size: 2.5rem;
+  margin-top: 4.5rem;
+  line-height: 3rem;
+  font-style: normal;
+}
+
+.do {
+  color: var(--purple-dark);
+}

@@ -1,0 +1,43 @@
+.infos {
+  margin-top: 4rem;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.createdTasks {
+  line-height: 1.0625rem;
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: var(--blue);
+
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.doneTasks {
+  line-height: 1.0625rem;
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: var(--purple);
+
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.counter {
+  color: var(--gray-200);
+  background-color: var(--gray-400);
+  padding: 0.125rem 0.5rem;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 0.75rem;
+  line-height: 0.9375rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

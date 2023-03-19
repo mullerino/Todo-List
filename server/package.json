@@ -1,0 +1,24 @@
+{
+  "name": "toDoList",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsnd --respawn --transpile-only --exit-child src/app.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.3",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.0.2"
+  },
+  "dependencies": {
+    "@fastify/cors": "^8.2.1",
+    "@prisma/client": "^4.11.0",
+    "cors": "^2.8.5",
+    "fastify": "^4.14.1",
+    "fastify-zod": "^1.2.0",
+    "jsonschema": "^1.4.1",
+    "yarn": "^1.22.19",
+    "zod": "^3.21.4"
+  }
+}
