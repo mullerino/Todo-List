@@ -39,6 +39,12 @@ Para o back end será necessário criar um container com docker, realize a insta
 docker run --name some-postgres -e POSTGRES_PASSWORD=senha -p 5432:5432 -d postgres
 ```
 
+Depois do container criado, deve-se rodar o seguinte comando para integrar com prisma
+
+```
+npx prisma generate
+```
+
 Em seguida, verifique se o arquivo .env possui a seguinte estrutura
 
 ```
@@ -53,28 +59,25 @@ yarn dev
 
 Com isso, a aplicação estará funcionando localmente e pronta para ser utilizada.
 
-
 ## 🛠️ Construído com
 
 Mencione as ferramentas que você usou para criar seu projeto
 
-* [ReactJs](https://react.dev) - Uma das bibliotecas de JS mais utilizada na atualidade
-* [Css Modules](https://github.com/css-modules/css-modules) - Uma eficiênte de usar Css
-* [Fastify](https://www.fastify.io) - Framework do Node.js
-* [Prisma](https://www.prisma.io) - Poderoso ORM da atualidade 
-
+- [ReactJs](https://react.dev) - Uma das bibliotecas de JS mais utilizada na atualidade
+- [Css Modules](https://github.com/css-modules/css-modules) - Uma eficiênte de usar Css
+- [Fastify](https://www.fastify.io) - Framework do Node.js
+- [Prisma](https://www.prisma.io) - Poderoso ORM da atualidade
 
 ## ✒️ Autores
 
 Mencione todos aqueles que ajudaram a levantar o projeto desde o seu início
 
-* **Eduardo Ramone** - *Desenvolveu o back end* - [Github](https://github.com/DuduRamone)/[Linkedln](https://www.linkedin.com/in/eduardo-ramone-90801b1b6/)
-* **Leandro Müller** - *Desenvolveu o back end e a documentação* - [Github](https://github.com/mullerino)/[Linkdeln](https://www.linkedin.com/in/leandromuller7/)
-* **Thullyo Damasceno** - *Desenvolveu o front end* - [Github](https://github.com/thullyoufrn)/[Linkdeln](https://www.linkedin.com/in/thullyo-damasceno-375083231/)
-
+- **Eduardo Ramone** - _Desenvolveu o back end_ - [Github](https://github.com/DuduRamone)/[Linkedln](https://www.linkedin.com/in/eduardo-ramone-90801b1b6/)
+- **Leandro Müller** - _Desenvolveu o back end e a documentação_ - [Github](https://github.com/mullerino)/[Linkdeln](https://www.linkedin.com/in/leandromuller7/)
+- **Thullyo Damasceno** - _Desenvolveu o front end_ - [Github](https://github.com/thullyoufrn)/[Linkdeln](https://www.linkedin.com/in/thullyo-damasceno-375083231/)
 
 ## 🎁 Expressões de gratidão
 
-* Conte a outras pessoas sobre este projeto 📢;
-* Convide alguém da equipe para uma cerveja 🍺;
-* Um agradecimento publicamente 🫂;
+- Conte a outras pessoas sobre este projeto 📢;
+- Convide alguém da equipe para uma cerveja 🍺;
+- Um agradecimento publicamente 🫂;
