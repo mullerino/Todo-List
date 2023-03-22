@@ -6,17 +6,15 @@ O projeto tem como objetivo desenvolver uma aplicação Full stack, onde as tare
 
 Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
 
-Consulte **[Implantação](#-implanta%C3%A7%C3%A3o)** para saber como implantar o projeto.
-
 ### 📋 Pré-requisitos
 
-De que coisas você precisa para instalar o software e como instalá-lo?
+Para a aplicação funcionar, é necessário que você tenha todos esses itens em sua máquina
 
 ```
 Node.js
 NPM
 Visual studio code
-
+Docker
 ```
 
 ### 🔧 Instalação
@@ -70,9 +68,9 @@ Mencione as ferramentas que você usou para criar seu projeto
 
 Mencione todos aqueles que ajudaram a levantar o projeto desde o seu início
 
-* **Eduardo Ramone** - *Desenvolveu o back end* - [Github](https://github.com/DuduRamone)
-* **Leandro Müller** - *Desenvolveu o back end e a documentação* - [Github](https://github.com/mullerino)
-* **Thullyo Damasceno** - *Desenvolveu o front end* - [Github](https://github.com/thullyoufrn)
+* **Eduardo Ramone** - *Desenvolveu o back end* - [Github](https://github.com/DuduRamone)/[Linkedln](https://www.linkedin.com/in/eduardo-ramone-90801b1b6/)
+* **Leandro Müller** - *Desenvolveu o back end e a documentação* - [Github](https://github.com/mullerino)/[Linkdeln](https://www.linkedin.com/in/leandromuller7/)
+* **Thullyo Damasceno** - *Desenvolveu o front end* - [Github](https://github.com/thullyoufrn)/[Linkdeln](https://www.linkedin.com/in/thullyo-damasceno-375083231/)
 
 
 ## 🎁 Expressões de gratidão
